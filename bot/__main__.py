@@ -206,7 +206,7 @@ def stats(update, context):
         if TOTAL_TASKS_LIMIT is None:
             total_task = 'No Limit Set'
         else:
-            total_task = f'{TOTAL_TASKS_LIMIT} Total Tasks/Time'
+            total_task = f'{ACTIVE_TASK_LIMIT} Total Tasks/Time'
         if USER_TASKS_LIMIT is None:
             user_task = 'No Limit Set'
         else:
